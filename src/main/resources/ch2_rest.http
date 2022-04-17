@@ -21,7 +21,7 @@ Authorization: Basic admin admin
 Accept: application/json
 
 ###
-PUT http://localhost:8080/api/messages/4
+PUT http://localhost:8080/api/messages/1
 Authorization: Basic moussa moussa
 Content-Type: application/json
 

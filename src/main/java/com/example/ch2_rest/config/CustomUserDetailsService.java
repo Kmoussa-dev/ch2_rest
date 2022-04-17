@@ -1,6 +1,6 @@
 package com.example.ch2_rest.config;
 
-import com.example.ch2_rest.controleur.MessageControleur;
+
 import com.example.ch2_rest.controleur.UtilisateurControleur;
 import com.example.ch2_rest.modele.Utilisateur;
 import org.springframework.beans.factory.annotation.Autowired;

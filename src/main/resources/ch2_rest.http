@@ -1,0 +1,41 @@
+### Send POST request with json body
+POST http://localhost:8080/api/message
+Authorization: Basic moussa moussa
+Content-Type: application/json
+
+{
+  "texte": "je teste mon post une premiere fois"
+}
+###
+GET http://localhost:8080/api/messages
+Authorization: Basic moussa moussa
+
+###
+GET http://localhost:8080/api/messages/1
+Authorization: Basic admin admin
+
+
+###
+DELETE http://localhost:8080/api/message/1
+Authorization: Basic admin admin
+Accept: application/json
+
+###
+PUT http://localhost:8080/api/messages/4
+Authorization: Basic moussa moussa
+Content-Type: application/json
+
+{
+  "texte": "je teste mon post une fois -2"
+}
+### Send POST request with json body
+POST http://localhost:8080/api/utilisateur
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{"login":"yohan","password": "yohan","isAdmin": true}
+###
+GET http://localhost:8080/api/utilisateur2/moussa
+Authorization: Basic moussa moussa
+
+###
